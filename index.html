@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="./estilo.css" class="css">
+</head>
+<body>
+    <!-- div geral -->
+    <div class="conteiner-login">
+        
+        <!-- divs da imagem esquerda-->
+        <div class="img-box">
+            <img src="./login.svg">
+        </div>
+    
+
+        <!-- divs do formulário-->
+        <div class="content-box">
+            <div class="form-box">
+                <h2>Login</h2>
+                
+                <form>
+                    <div class="input-box">
+                        <span>Username</span>
+                        <input type="email" placeholder="@mail.com" id="email">
+                    </div>
+
+                    <div class="input-box">
+                        <span>Passowrd</span>
+                        <input type="password" placeholder="password" id="senha">
+                    </div>
+
+                    <div class="remember">
+                        <label>
+                            <input type="checkbox"> Remember me
+                        </label>
+
+                        <a href="http://www.google.com" target="_blank">Esqueceu a Senha</a>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="submit" value="Entrar" onclick="logando()">
+                    </div>
+                    <div class="input-box">
+                        <p>Não tem Conta? <a href="http://www.google.com" target="_blank">Inscrever-se</a> </p>
+                    </div>
+                </form>
+
+                <h3>Logar Com</h3>
+                <ul class="ul">
+                    <li><img src="./facebook.png"></li>
+                    <li><img src="./google.png"></li>
+                    <li><img src="./apple.png"></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
